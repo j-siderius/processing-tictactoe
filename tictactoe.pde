@@ -2,7 +2,7 @@
  * Tic-Tac-Toe / Boter-Kaas-Eieren
  * Jannick Siderius
  * 28 november 2021
- * 50 minuten
+ * 53 minuten
  *
  * Set field size using the fieldSize variable below (n x n field)
  * You need n-in-a-row to win (e.g. 4x4 > 4-in-a-row)
@@ -11,7 +11,7 @@
 
 
 // playing field variables
-int fieldSize = 4;
+int fieldSize = 3;
 int[][] playingField = new int[fieldSize][fieldSize]; // legend: 0=empty, 1=nought, 2=cross
 
 // game variables
